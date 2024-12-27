@@ -103,7 +103,7 @@ def init_model():
 # Interface principal
 def main():
     
-    st.title("🏘 Ask About Reports")
+    st.title("🧾 Ask About Reports")
     
     # Add examples of questions before the chat input
     st.markdown("""
