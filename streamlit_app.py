@@ -41,7 +41,7 @@ class GeminiEmbeddingFunction(EmbeddingFunction):
 # Function to load data
 @st.cache_resource
 def load_knowledge_base():
-    data = pd.read_csv("data/reports.csv", 
+    data = pd.read_csv("data/reports_2024_texts.csv", 
                       encoding='latin1',
                       sep=',',
                       quotechar='"',
