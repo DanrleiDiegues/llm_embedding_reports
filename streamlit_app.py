@@ -186,7 +186,7 @@ def main():
     # Sidebar with information
     with st.sidebar:
         st.markdown("### About")
-        st.write("This chatbot uses RAG (Retrieval-Augmented Generation) to provide accurate information about the city of Chácara-MG.")
+        st.write("This chatbot uses RAG (Retrieval-Augmented Generation) to provide accurate information about some reports of 2024.")
         
         if st.button("Clear conversation"):
             st.session_state.messages = []
