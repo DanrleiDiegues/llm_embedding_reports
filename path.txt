@@ -3,7 +3,7 @@ seu_projeto/
 ├── requirements.txt
 ├── .env
 ├── data/
-│   └── chácara_knowledge.csv
+│   └── reports_2024_texts.csv
 ├── chroma_db/
 └── .streamlit/
     └── config.toml
