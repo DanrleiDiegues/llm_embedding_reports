@@ -85,7 +85,7 @@ def init_model():
     '''
     
     model = genai.GenerativeModel(
-        model_name="gemini-2.0-flash",
+        model_name="gemini-2.0-flash-001",
         system_instruction=SYSTEM_MESSAGE
     )
     
