@@ -16,7 +16,7 @@ genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 
 # Configure the page
 st.set_page_config(
-    page_title="Ask About Reports",
+    page_title="AI Agent | Ask About Reports",
     page_icon="🧾",
     layout="centered"
 )
