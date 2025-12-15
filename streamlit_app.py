@@ -102,10 +102,12 @@ def init_model():
 # Interface principal
 def main():
     
-    st.title("🧾 Ask About Reports")
+    st.title("🧾 Ask About Reports (Single-Agent RAG System)")
     
     # Add examples of questions before the chat input
     st.markdown("""
+    This chatbot uses Retrieval-Augmented Generation (RAG) to provide accurate information based on the content of these reports.            
+                
     ### Examples of questions you can ask about reports:
     - What are the main topics of the fraud report?
     - What are the main data of Energy report?
